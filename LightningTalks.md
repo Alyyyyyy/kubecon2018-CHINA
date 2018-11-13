@@ -5,6 +5,7 @@
 So you’ve deployed Kubernetes, now what? Time to deploy your applications! First things first, describe a Deployment to control your Pods--it is probably going to need a Secret or two and maybe a ConfigMap too! Now specify a Service to give it a VIP and introduce an Ingress to expose it! Saving some data? Propose a PVC! What about adding a Service Account or CRB? Lost in alliterations and acronyms? Helm is here to help!
 
 This lighthearted session introduces Helm in an approachable way: revealing its architecture and nomenclature; introducing Charts, Chart components, and the official Charts repository for curated apps; as well as explaining Releases and Release upgrades. Information will be presented in a platform agnostic way to show attendees how to read, customize, and deploy an existing Chart to fit their needs, whether in the cloud, on a given platform or in their own datacenter.
+
 click here for slide [Helm_ckhanson_KubeConChina](https://drive.google.com/open?id=1vW_26CIUKYGc4VZNLL5xPoOQTtedo8Pm)
 - - - 
 **From Enterprise Image Registry to Chart Repository - Tan Jiang, VMware**
@@ -31,6 +32,7 @@ click here for slide [Kubernetes Explained the Easy Way, Using Computer Games...
 The session will share the experiences we have had and lessons we learned in the process of upgrading micro service based platform with stateful sets in a resource constrained environment.
 
 We have adopted Kubernetes as platform to host as well as distribute our management control plan that manages lots of high through put network software/hardware. We use the same platform to host SaaS as well as ship it on custom hardware to our on premise customers. While Kubernetes allows us to do rolling upgrades with out impacting the availability, we need to make sure our upgrades don't require extra resources as they run on fixed baremetal. These stateful sets include Cassandra, Elastic Search with out shared storage. The session will cover important hurdles in these environments and share some of the techniques we have used to over come those.
+
 - - - 
 **All About Kubernetes Certification Programs - Christopher Hanson, RX-M Enterprises, LLC**
 
@@ -73,6 +75,7 @@ The agenda of the presentation would be divided into:
 * Deployment flow and process
 * Challenges with managing things at scale
 * Road ahead
+
 click here for slide [Kubernetes CI/CD Practices at Meetup](https://drive.google.com/open?id=1tDC4-23LAGmFS5zR3rWv8uIg6XQ3mrDF)
 - - - 
 **Jidproxy: ContainerCI On Kubernetes - Feng Wang, JD.COM**
@@ -94,6 +97,7 @@ click here for slide[Canary Deployment With Prometheus](https://drive.google.com
 **Effectively Extending Kubernetes Resources - Fan Zhang, VMware**
 
 In the real world, developing and maintaining Kubernetes CustomResourceDefinitions (CRD) and controllers are tedious, but add significant value for the Kubernetes cluster. Instead of building one from scratch, Kubebuilder aims to simplify API development by providing the cli tool and SDK, making it possible for the developer to focus on target purpose only, without having to care about how the Kubernetes resources work. In this talk, Fan Zhang will explore an effective approach to rapidly build and publish Kubernetes API by kubebuilder, and review how it is used in extending Kkubernetes resources in running cluster.
+
 click here for slide [Effectively Extending Kubernetes Resources](https://drive.google.com/open?id=1u4DxNSqY1CPX5tPuwa-7xyOyMzb9Y6Hg)
 - - - 
 **Kube-Liveboard: Make Your Cluster Visible - Xinkun Xu, JD.COM**
@@ -105,6 +109,7 @@ Kube-liveboard is a visible tool which can provide more details of the cluster s
 - the changes in the number of containers and nodes group by their states or namespaces.
 - the cost time of each steps during the lifecyle of the pod.
 With it, the administrators can understand the trend of cluster changes and the bottleneck of the performance. Also, the administrators can take advantage of the data to send alarms. The topic will show why it is developed and how it works.
+
 click here for slide [Kube-Liveboard: Make Your Cluster Visible](https://drive.google.com/open?id=1c13357nJGI-7M3xdeolgbC-vFfdok9MQ)
 - - - 
 **Designing Kubernetes Clusters That Run on Embedded Devices - Daniele Polencic, learnk8s**
