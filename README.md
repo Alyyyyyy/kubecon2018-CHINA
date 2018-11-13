@@ -85,4 +85,20 @@ click here for slide[Canary Deployment With Prometheus](https://drive.google.com
 **Effectively Extending Kubernetes Resources - Fan Zhang, VMware**
 
 In the real world, developing and maintaining Kubernetes CustomResourceDefinitions (CRD) and controllers are tedious, but add significant value for the Kubernetes cluster. Instead of building one from scratch, Kubebuilder aims to simplify API development by providing the cli tool and SDK, making it possible for the developer to focus on target purpose only, without having to care about how the Kubernetes resources work. In this talk, Fan Zhang will explore an effective approach to rapidly build and publish Kubernetes API by kubebuilder, and review how it is used in extending Kkubernetes resources in running cluster.
-click here for slide[Effectively Extending Kubernetes Resources](https://drive.google.com/open?id=1u4DxNSqY1CPX5tPuwa-7xyOyMzb9Y6Hg)
+click here for slide [Effectively Extending Kubernetes Resources](https://drive.google.com/open?id=1u4DxNSqY1CPX5tPuwa-7xyOyMzb9Y6Hg)
+
+**Kube-Liveboard: Make Your Cluster Visible - Xinkun Xu, JD.COM**
+Kube-liveboard is a visible tool which can provide more details of the cluster status by analyzing log data in real time and watching the resources from api. It can offer these: 
+- the number, the cost time, the source ip of the request group by namespaces, resources or request methed in apiserver.
+- the cost time of each steps and the schedule result in kube-scheduler.
+- the statistics of containers in different states at different times.
+- the changes in the number of containers and nodes group by their states or namespaces.
+- the cost time of each steps during the lifecyle of the pod.
+With it, the administrators can understand the trend of cluster changes and the bottleneck of the performance. Also, the administrators can take advantage of the data to send alarms. The topic will show why it is developed and how it works.
+click here for slide [Kube-Liveboard: Make Your Cluster Visible](https://drive.google.com/open?id=1c13357nJGI-7M3xdeolgbC-vFfdok9MQ)
+
+**Designing Kubernetes Clusters That Run on Embedded Devices - Daniele Polencic, learnk8s**
+
+Kubernetes is designed to run on data centres and in the cloud. After all, it is engineered to squeeze every last drop of efficiency from your servers. But does that mean that you can only use it on real servers? What about smaller computers such as routers? Can you create a Kubernetes cluster that is made of a collection of routers over a 5G network?
+This talk explores the challenges of designing such cluster topology and what you should look for when you create a cluster with networking, memory and CPU constraints.
+click here for slide[Designing Kubernetes Clusters That Run on Embedded Devices](https://drive.google.com/open?id=1M-DkRDENC_K9_9Hv0CjxoEzq7j4WxzMl)
