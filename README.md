@@ -2,12 +2,14 @@
 ## 11.13 Lightning talk
 - - - 
 **Take the Wheel, Don’t Reinvent It! - Deploying Apps With Helm in 5 Minutes - Christopher Hanson, RX-M Enterprises, LL**
+
 So you’ve deployed Kubernetes, now what? Time to deploy your applications! First things first, describe a Deployment to control your Pods--it is probably going to need a Secret or two and maybe a ConfigMap too! Now specify a Service to give it a VIP and introduce an Ingress to expose it! Saving some data? Propose a PVC! What about adding a Service Account or CRB? Lost in alliterations and acronyms? Helm is here to help!
 
 This lighthearted session introduces Helm in an approachable way: revealing its architecture and nomenclature; introducing Charts, Chart components, and the official Charts repository for curated apps; as well as explaining Releases and Release upgrades. Information will be presented in a platform agnostic way to show attendees how to read, customize, and deploy an existing Chart to fit their needs, whether in the cloud, on a given platform or in their own datacenter.
 click here for slide [Helm_ckhanson_KubeConChina](https://drive.google.com/open?id=1vW_26CIUKYGc4VZNLL5xPoOQTtedo8Pm)
 - - - 
 **From Enterprise Image Registry to Chart Repository - Tan Jiang, VMware**
+
 HARBOR: as the Kubernetes Registry.  
 In the On-Prem enterprise environment, we've been packaging content into docker images and hosting them using docker registry for some time, now helm chart has become the choice of application package format on Kubernetes, it's time to explore what's the proper way to host Helm Charts.
 
@@ -16,6 +18,7 @@ Based on our experience extending a private docker image registry (Project Harbo
 click here for slide [From Enterprise Image Registry to Chart Repository](https://drive.google.com/open?id=1U3Zs9qkr6eQTHYd8-ze2jbgJI-KMLv11)
 - - - 
 **Kubernetes Explained the Easy Way, Using Computer Games... - Steven Trescinski, Gluo**
+
 How do you explain some of the basic Kubernetes constructs (i.e. nodes, pods, rolling updates, image tags, deployments,...) together with their concrete use cases in a fun and memorable way to people that have never heard of Kubernetes before?
 
 The above was the challenge I was faced with when preparing my talk titled "Orchestrating the Container Chaos" for a group of Belgian students. So I started looking for something that most engineering students can relate to...
@@ -43,6 +46,7 @@ In this presentation, speaker shares his experience on creating Data Science Exp
 click here for slide [How to Simplify Data Scientist’s Day in Huge Company Using Kubernetes](https://drive.google.com/open?id=1t7y74abJwKqCEwSprDzv5lpaAs-CVVoT)
 - - - 
 **Kubernetes Love Machine Learning, Even on Private Cloud - Hui Luo, VMware**
+
 Kubernetes has established as a good platform for machine learning workloads by extending support of accelerators like GPU, all major public cloud provider are offering GPU enabled Kubernetes services, but public cloud is not the only option for users. There are ongoing efforts from the community to make running machine learning workloads with Kubernetes on private cloud as easy as on public cloud.
 
 This talk is going to cover 3 major challenges that facing private cloud when enable GPU on Kubernetes. I will also demonstrate and discuss some of the projects that help to solve those challenges:
@@ -53,6 +57,7 @@ This talk is going to cover 3 major challenges that facing private cloud when en
 click here for slide[Kubernetes Love Machine Learning, Even on Private Cloud](https://drive.google.com/open?id=1kGpN_8_4VEMMGS6q_ETRcY1w31FkthoK)
 - - - 
 **CI/CD Pipelines and Machine Learning - Jeremy Lewi, Google**
+
 This sessions will be part of the larger Kubeflow presentation. This will specifically cover how to use CI/CD pipelines to serve machine learning models on Kubernetes via Kubeflow.
 
 Machine Learning requires a lot of training, experiments and retraining. It also requires a lot of data. Automating these can be difficult for many data scientists. Well now that we are able to make Machine Learning more cloud native via Kubeflow, allowing it to run on Kubernetes, we should now make use of the tooling that is available in a cloud native architecture. While most of my demo will involve WeaveWorks Flux, I will try to speak in general terms revolving around best practices in building a cloud native machine learning automation pipeline. 
@@ -60,6 +65,7 @@ Machine Learning requires a lot of training, experiments and retraining. It also
 click here for slide [CI/CD Pipelines and Machine Learning](https://drive.google.com/open?id=1WaOavz3y2T9GAfpoQa_yFQgaR1MLTov9)
 - - - 
 **Kubernetes CI/CD Practices at Meetup - Rui Chen, Meetup**
+
 The presentation would be like case-study style to introduce the Kubernetes practices @ Meetup around CI/CD. 
 
 The agenda of the presentation would be divided into:
@@ -71,6 +77,7 @@ The agenda of the presentation would be divided into:
 click here for slide [Kubernetes CI/CD Practices at Meetup](https://drive.google.com/open?id=1tDC4-23LAGmFS5zR3rWv8uIg6XQ3mrDF)
 - - - 
 **Jidproxy: ContainerCI On Kubernetes - Feng Wang, JD.COM**
+
 Jidproxy is a tool developed by the engineers of JD.COM. It implements the function of compiling packages and building images through Jenkins and Kubernetes. Its main features are as follows:
 1. Support jenkins master high availability
 2. Expand and Reduce jenkins matster and slave dynamically
@@ -91,6 +98,7 @@ In the real world, developing and maintaining Kubernetes CustomResourceDefinitio
 click here for slide [Effectively Extending Kubernetes Resources](https://drive.google.com/open?id=1u4DxNSqY1CPX5tPuwa-7xyOyMzb9Y6Hg)
 - - - 
 **Kube-Liveboard: Make Your Cluster Visible - Xinkun Xu, JD.COM**
+
 Kube-liveboard is a visible tool which can provide more details of the cluster status by analyzing log data in real time and watching the resources from api. It can offer these: 
 - the number, the cost time, the source ip of the request group by namespaces, resources or request methed in apiserver.
 - the cost time of each steps and the schedule result in kube-scheduler.
