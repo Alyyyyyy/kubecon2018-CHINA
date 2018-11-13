@@ -50,3 +50,39 @@ This talk is going to cover 3 major challenges that facing private cloud when en
 
 click here for slide[Kubernetes Love Machine Learning, Even on Private Cloud](https://drive.google.com/open?id=1kGpN_8_4VEMMGS6q_ETRcY1w31FkthoK)
 
+**CI/CD Pipelines and Machine Learning - Jeremy Lewi, Google**
+This sessions will be part of the larger Kubeflow presentation. This will specifically cover how to use CI/CD pipelines to serve machine learning models on Kubernetes via Kubeflow.
+
+Machine Learning requires a lot of training, experiments and retraining. It also requires a lot of data. Automating these can be difficult for many data scientists. Well now that we are able to make Machine Learning more cloud native via Kubeflow, allowing it to run on Kubernetes, we should now make use of the tooling that is available in a cloud native architecture. While most of my demo will involve WeaveWorks Flux, I will try to speak in general terms revolving around best practices in building a cloud native machine learning automation pipeline. 
+
+click here for slide [CI/CD Pipelines and Machine Learning](https://drive.google.com/open?id=1WaOavz3y2T9GAfpoQa_yFQgaR1MLTov9)
+
+**Kubernetes CI/CD Practices at Meetup - Rui Chen, Meetup**
+The presentation would be like case-study style to introduce the Kubernetes practices @ Meetup around CI/CD. 
+
+The agenda of the presentation would be divided into:
+* Current infrastructure status @ Meetup
+* Configuration stack
+* Deployment flow and process
+* Challenges with managing things at scale
+* Road ahead
+click here for slide [Kubernetes CI/CD Practices at Meetup](https://drive.google.com/open?id=1tDC4-23LAGmFS5zR3rWv8uIg6XQ3mrDF)
+
+**Jidproxy: ContainerCI On Kubernetes - Feng Wang, JD.COM**
+Jidproxy is a tool developed by the engineers of JD.COM. It implements the function of compiling packages and building images through Jenkins and Kubernetes. Its main features are as follows:
+1. Support jenkins master high availability
+2. Expand and Reduce jenkins matster and slave dynamically
+3. Compile from source code and build image with source code or code package
+4. Storage the compile and build task metadata information to database
+click here for slide [Jidproxy: ContainerCI On Kubernetes](https://drive.google.com/open?id=1uJuE68C2AHHdQRHbs6eLHfU1VFPzUS7A)
+
+**Canary Deployment With Prometheus - Andrey Markelov, Infobip**
+
+I want to share my success story about using Prometheus for canary deployment. Currently I work with Java micro-services and every micro-service is usually deployed to the production environment at least once a week. To prevent fatal errors for high-loaded applications we deploy our application to one node with reduced traffic and after verifying we deploy to all others. This approach is called "canary deployment" and for us it is based on Prometheus metrics. We compare the metrics from the deployed node with historical metrics of other nodes and make a decision about version stability. I will show how we accomplish it and how it works. Also I would like to go deep into implementation details: HA Proxy, health checks, Jenkins. The real metrics examples will be shown.
+
+click here for slide[Canary Deployment With Prometheus](https://drive.google.com/open?id=18RV8egOdZ9xejbE2dua4_c2nqAvOctLn)
+
+**Effectively Extending Kubernetes Resources - Fan Zhang, VMware**
+
+In the real world, developing and maintaining Kubernetes CustomResourceDefinitions (CRD) and controllers are tedious, but add significant value for the Kubernetes cluster. Instead of building one from scratch, Kubebuilder aims to simplify API development by providing the cli tool and SDK, making it possible for the developer to focus on target purpose only, without having to care about how the Kubernetes resources work. In this talk, Fan Zhang will explore an effective approach to rapidly build and publish Kubernetes API by kubebuilder, and review how it is used in extending Kkubernetes resources in running cluster.
+click here for slide[Effectively Extending Kubernetes Resources](https://drive.google.com/open?id=1u4DxNSqY1CPX5tPuwa-7xyOyMzb9Y6Hg)
