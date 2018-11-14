@@ -5,11 +5,11 @@
 
 *keywords* **GaiaStack,custom Kubernetes,** 
 
-可以定制用户百分比使用GPU显存.
-
 sharing sigle GPU：
 - VMs use NVIDIA GRID, not suitable for runc.
 - Processes use MPS Service, CONs:hard resource limits 
+
+exp: 如何申请GPU服务？GPU池化已经作为服务使用了吗？
 
 The Kubernetes and Tensorflow are playing an important role in machine learning, However, the original Kubernetes doesn't serve machine learning well, lacks of accurate GPU scheduling policy, GPU topology awareness and resource limitation etc. In this presentation, we will review recent events about machine learning in Kubernetes community, give us a overview of what changes have been made to Kubernetes to support machine learning in Tencent, the challenges it faces, and look forward to how to address the challenges.
 
@@ -27,8 +27,8 @@ download PPT [A Day in the Life of a Data Scientist](https://drive.google.com/op
 - - - 
 **Serverless Kubernetes Boosts AI Business - Jian Huang, Huawei**
 
-*keyword* **kubeflow,serverless**
- 
+*keyword* **kubeflow,serverless，GPU sharing**
+
 Kubernetes is becoming more and more popular in IT systems including running the AI workloads. Currently, ML/DL Services of Huawei cloud are running over Kubernetes clusters.
 
 In order to make the AI services focus on their business without caring the underlayer infrastructure like physical machines and GPU offering. We provide the serverless Kubernetes services(CCI) in order to meet their requirements. And serverless Kubernetes is very suitable for the users to run the short-time jobs.
