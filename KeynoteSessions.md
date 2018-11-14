@@ -8,13 +8,6 @@ The Kubernetes and Tensorflow are playing an important role in machine learning,
 download PPT [Deep Customized Kubernetes for Machine Learning in Tencent](https://drive.google.com/open?id=1tG9xNGbjU-2yP4bBMuTDWRIkURn3-_8t)
 
 - - -
-**Migrating Enterprise Microservices From Cloud Foundry to Kubernetes – Tony Erwin & Jonathan Schweikhart, IBM**
-
-Historically, the forty microservices making up the IBM Cloud UI have been deployed as apps on Cloud Foundry (CF), an open source PaaS. But, recently, this enterprise microservice system has been migrated to run on Kubernetes to take advantage of improved orchestration, higher availability, and better performance. Tony Erwin & Jonathan Schweikhart will discuss their journey and provide insights into the advantages of Kube over CF. Even more importantly, they will describe approaches to solving new problems that took the place of old ones, such as: 1) adapting PaaS apps to run as containers on Kube, 2) enabling geo load balancing between the different platforms (to vet Kube before entirely replacing CF), 3) integrating tools like Prometheus into existing monitoring systems, and more! Their team's experiences will help you avoid pitfalls as you look to perform your own migrations to Kube!
-
-download PPT  []()
-
-- - -
 **Kubernetes Native DevOps Practice - Lei Wang, TenxCloud**
 
 This topic will cover a new approach that we used to build DevOps solution on top of Kubernetes. We find it's quite easy to setup, use and maintain, it can also leverage lots of existing features from PaaS if we're building both. Here is the agenda:
@@ -30,14 +23,6 @@ This topic will cover a new approach that we used to build DevOps solution on to
 
 download PPT [Kubernetes Native DevOps Practice](https://drive.google.com/open?id=1YIF-KJpBywdR4NayPbigi2TCwdB2vJz_)
 
-- - -
-**Container Networking Untangling Services Meshes and SDNs - Gregory Elkinbard, GSE Software**
-
-Horizontally scalable applications need reliable and scalable networking, traffic routing to the correct instance and security policy enforcement. Traditionally SDNs have delivered these functions. However recently Service Meshes began to encroach on the tranditional SDN space. 
-
-This presentation will compare 3 services meshes Istio, Linkerd and Conduit vs a more traditional SDN such as OpenContrail in the Kubernetes cluster environment. We will go over the features of each one of these products and compare their Kubernetes integrations against each other.
-
-download PPT []()
 
 - - - 
 **A Day in the Life of a Data Scientist. Conquer ML Lifecycle on Kubernetes - Rita Zhang & Brian Redmond, Microsoft** 
@@ -48,4 +33,33 @@ Ever wondered how machine learning models are built? Well, here’s your opportu
 
 download PPT [A Day in the Life of a Data Scientist](https://drive.google.com/open?id=1kamfTvH4WqYeQLam0DvlwWHO2yavDItn)
 
-****
+- - - 
+**Serverless Kubernetes Boosts AI Business - Jian Huang, Huawei**
+
+*keyword* **kubeflow,serverless**
+ 
+Kubernetes is becoming more and more popular in IT systems including running the AI workloads. Currently, ML/DL Services of Huawei cloud are running over Kubernetes clusters.
+
+In order to make the AI services focus on their business without caring the underlayer infrastructure like physical machines and GPU offering. We provide the serverless Kubernetes services(CCI) in order to meet their requirements. And serverless Kubernetes is very suitable for the users to run the short-time jobs.
+
+In this session, we try to introduce the effort we have make on this area. Such as use kata container to protect the container's security so multi-tenant's workload can run on the same physical machine; support AI jobs with multiple devices like Nvidia GPU, InfiniBand; experience of running DL frameworks like tensorflow over Kubernetes in Huawei and so on.
+
+download PPT [Serverless Kubernetes Boosts AI Business](https://drive.google.com/open?id=1ChLe_LrVKDW9ItJaiHb0GxjFmEI1Ix1s)
+
+- - -
+**Flowkube: GPU Resource Management On JDOS - Liang Yongqing, JD.com**
+
+*keyword* **kubeflow,serverless**
+
+Flowkube is a service we developed to manage our GPU Resource. It contains:
+1.      GPU machine management: install, driver,manage cordon, zone, label ,etc  
+2.      Builtin CI system ,User don't need to build their own docker image
+3.      Support our ContainerFS system: store training resource ,and training log
+4.      TensorFlow training base on Kubeflow
+5.      One-Click Serving After training
+6.      A Realtime Gpu usage monitor
+7.      A Billing system to account all the department ‘s usage
+
+[Flowkube: GPU Resource Management On JDOS](https://drive.google.com/open?id=1_KyeKjKLhlToVjvKCx-UWXF8dk8M4JRz)
+
+- - -
