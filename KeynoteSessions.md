@@ -77,3 +77,10 @@ download PPT [Kubernetes Native DevOps Practice](https://drive.google.com/open?i
 In this topic, Xiaoliang will share his practice about the implementation of a high performance service mesh, how developer use service mesh in their production environment and how Mesher and micro service framework use unified Istio control plane to connect to each other.
 
 download PPT [Mesher: The Practice of a Production-Level Service Mesh](https://drive.google.com/open?id=1RYhFiWNsJdmMtDFEwszYRzH3kmfi1qmq)
+
+- - - 
+**Benchmarking Machine Learning Workloads on Kubeflow - Xinyuan Huang, Cisco Systems, Inc. & Ce Gao, Caicloud**
+
+Benchmarking is an essential part in machine learning research and productization, that provides useful performance information from the perspectives of both models and systems. While Kubernetes and Kubeflow give us a great platform for ML workloads to run on, they do not automatically provide a straightforward way to perform benchmark tasks, especially for complex ML workloads based on distributed jobs. In this talk we present Kubebench, an open sourced benchmarking tool based on Kubeflow, that helps us better understand the performance signature of our ML workloads on Kubernetes through automated and consistent benchmarks. We also show how we can leverage other benchmarking efforts from academia and industry like MLPerf and Dawnbench.
+
+download PPT [Benchmarking Machine Learning Workloads on Kubeflow](https://drive.google.com/open?id=1eDha39pBwYBIN8mnWYhEH9doNpIlBaJY)
