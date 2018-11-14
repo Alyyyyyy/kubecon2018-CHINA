@@ -3,26 +3,17 @@
 
 **Deep Customized Kubernetes for Machine Learning in Tencent - Shengbo Song, Tencent**
 
+*keywords* **GaiaStack,custom Kubernetes,** 
+
+可以定制用户百分比使用GPU显存.
+
+sharing sigle GPU：
+- VMs use NVIDIA GRID, not suitable for runc.
+- Processes use MPS Service, CONs:hard resource limits 
+
 The Kubernetes and Tensorflow are playing an important role in machine learning, However, the original Kubernetes doesn't serve machine learning well, lacks of accurate GPU scheduling policy, GPU topology awareness and resource limitation etc. In this presentation, we will review recent events about machine learning in Kubernetes community, give us a overview of what changes have been made to Kubernetes to support machine learning in Tencent, the challenges it faces, and look forward to how to address the challenges.
 
 download PPT [Deep Customized Kubernetes for Machine Learning in Tencent](https://drive.google.com/open?id=1tG9xNGbjU-2yP4bBMuTDWRIkURn3-_8t)
-
-- - -
-**Kubernetes Native DevOps Practice - Lei Wang, TenxCloud**
-
-This topic will cover a new approach that we used to build DevOps solution on top of Kubernetes. We find it's quite easy to setup, use and maintain, it can also leverage lots of existing features from PaaS if we're building both. Here is the agenda:
-1. Our DevOps Expectations - Easy to use/scale/extend; high availability; a superset, can integrate with existing CI/CD tools
-2. Kubernetes capabilities and advantages to build DevOps solution - Pod/Job/CrontJob/InitContainer/Resource management/Scheduling
-3. Architecture and features
- - CRD and operator design
- - Pipeline/Stage/Task/Task Template/Version Control/UI generation/Volume...
- - Logging, monitoring, autoscaling, high availability
- - Extensibility/Integration
- - CI/CD examples
-4. Future plan - ChatOps/AIOps - Enterprise users are actively using this solution, bring consistent user experience and generate consistent system metrics, make DevOps easier.
-
-download PPT [Kubernetes Native DevOps Practice](https://drive.google.com/open?id=1YIF-KJpBywdR4NayPbigi2TCwdB2vJz_)
-
 
 - - - 
 **A Day in the Life of a Data Scientist. Conquer ML Lifecycle on Kubernetes - Rita Zhang & Brian Redmond, Microsoft** 
@@ -63,3 +54,26 @@ Flowkube is a service we developed to manage our GPU Resource. It contains:
 [Flowkube: GPU Resource Management On JDOS](https://drive.google.com/open?id=1_KyeKjKLhlToVjvKCx-UWXF8dk8M4JRz)
 
 - - -
+**Kubernetes Native DevOps Practice - Lei Wang, TenxCloud**
+
+This topic will cover a new approach that we used to build DevOps solution on top of Kubernetes. We find it's quite easy to setup, use and maintain, it can also leverage lots of existing features from PaaS if we're building both. Here is the agenda:
+1. Our DevOps Expectations - Easy to use/scale/extend; high availability; a superset, can integrate with existing CI/CD tools
+2. Kubernetes capabilities and advantages to build DevOps solution - Pod/Job/CrontJob/InitContainer/Resource management/Scheduling
+3. Architecture and features
+ - CRD and operator design
+ - Pipeline/Stage/Task/Task Template/Version Control/UI generation/Volume...
+ - Logging, monitoring, autoscaling, high availability
+ - Extensibility/Integration
+ - CI/CD examples
+4. Future plan - ChatOps/AIOps - Enterprise users are actively using this solution, bring consistent user experience and generate consistent system metrics, make DevOps easier.
+
+download PPT [Kubernetes Native DevOps Practice](https://drive.google.com/open?id=1YIF-KJpBywdR4NayPbigi2TCwdB2vJz_)
+
+- - -
+**Mesher: The Practice of a Production-Level Service Mesh - Xiaoliang Tian, Huawei**
+
+2018 is the year of service mesh, Mesher is an open source project of service mesh implementation. Mesher is flexible and open, it is able to run on any infrastructure or platform like kubernetes. By extending plugins, Mesher can be easily integrated with various protocols and backends including Prometheus, zipkin etc..
+
+In this topic, Xiaoliang will share his practice about the implementation of a high performance service mesh, how developer use service mesh in their production environment and how Mesher and micro service framework use unified Istio control plane to connect to each other.
+
+download PPT [Mesher: The Practice of a Production-Level Service Mesh](https://drive.google.com/open?id=1RYhFiWNsJdmMtDFEwszYRzH3kmfi1qmq)
